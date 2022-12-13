@@ -1,0 +1,14 @@
+version: '3'
+services:
+  heimdall:
+    image: linuxserver/heimdall:latest
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Lisbon
+    volumes:
+      - /home/pi/heimdall/config:/config
+    ports:
+      - 80:80
+      - 443:443
+    restart: unless-stopped
