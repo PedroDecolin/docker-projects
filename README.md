@@ -33,3 +33,8 @@ Os passos iniciais se repetem em muitos desses projetos:
 
 Por ultimo, note que atualizações em algum desses serviços pode ocorrer, e alguma mudança pode ser necessária. 
 Farei o máximo para manter os docuementos atualizados, e peço para que, se necessário uma correção, me contate
+
+SUBINDO O CONTAINER
+
+Para subir o container, basta copiar o arquivo 'docker-compose.yaml' para sua máquina e rodar o comando:
+    sudo docker-compose up -d
