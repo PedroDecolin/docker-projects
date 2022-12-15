@@ -24,8 +24,13 @@ Os passos iniciais se repetem em muitos desses projetos:
     que você especificará após o domínio. 
     Já o segundo argumento, neste caso 80, se refere a porta que o serviço no container usará
 
+<<<<<<< HEAD
     - Em alguns projetos, eu utilizo um disco externo, usualmente montado em '/mnt/dados'. Deixo avisado que 
     para que o sistema rode sem nenhum problema, o disco deverá ser montado corretamente, e deverá ser 
     configurado o 'fstab' para montagem automática da unidade em uma reinicialização
+=======
+    - Em alguns projetos, eu utilizo um disco externo, usualmente montado em '/mnt/dados'. Deixo avisado que para que o sistema rode sem nenhum problema, 
+    o disco deverá ser montado corretamente, e deverá ser configurado o 'fstab' para montagem automática da unidade em uma reinicialização
+>>>>>>> ac30d920c488a353790ec08f4eebcd89be5896c4
 
 Por ultimo, note que atualizações em algum desses serviços pode ocorrer, e alguma mudança pode ser necessária. Farei o máximo para manter os docuementos atualizados, e peço para que, se necessário uma correção, me contate
